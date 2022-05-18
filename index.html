@@ -1,0 +1,91 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>English Essay | Study Guide | Studying.com, English A+ Essays</title>
+
+    <style>
+
+    @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif&display=swap');
+
+        *{
+        }
+        
+        body{
+            overflow: hidden;
+        }
+
+      #cum {
+        font-size: 3000%;
+    }
+
+      nav{
+            width: 100%;
+            box-shadow: 3px 3px 10px 0px #aaa3;
+            height: 3rem;
+            position:fixed;
+        }
+
+      .fake {
+        padding: 25rem;
+        padding-top: 10rem;
+        font-family: 'IBM Plex Serif', serif;
+      }
+
+      h3{
+        font-family: 'IBM Plex Serif', serif;
+        margin: 0.5rem;
+        padding-left: 23rem;
+      }
+
+    </style>
+  </head>
+
+  <body>
+    <p id="cum"></p>
+
+    <nav>
+        <h3> english  </h3>   
+    </nav>
+
+    <p class="fake">
+      Mark Haddon's novel The Curious Incident of the Dog in the Night Time is a
+      first-person coming-of-age novel that takes the shape of a mystery
+      investigation. The novel is also unique in that the narrator is probably
+      autistic, although this is never explicitly stated in the story. In
+      addition to being a fast-paced and interesting read, the novel encourages
+      readers to view everyday situations from a new perspective. For this
+      reason, the novel is a good discussion-starter. Use these questions with
+      your middle or high school students to help you get the most out of this
+      book.
+    </p>
+
+  </body>
+
+  <script defer>
+    let indelay = 1250;
+    let outdelay = 640;
+
+    let p = document.getElementById("cum");
+
+    function iny() {
+      p.innerHTML = "👉 👌";
+      setTimeout(() => {
+        outy();
+      }, indelay);
+    }
+
+    function outy() {
+      let audio = new Audio("moan.mp3");
+      audio.currentTime = 1;
+      audio.play();
+      p.innerHTML = "👉👌";
+      setTimeout(() => {
+        iny();
+      }, outdelay);
+    }
+
+    setTimeout(() => iny(), 10000);
+  </script>
+</html>
